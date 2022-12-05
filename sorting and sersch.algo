@@ -1,0 +1,17 @@
+ALGORITHM insertion_sort
+VAR
+step,key,j: INTEGER;
+tab:array_INTEGER [50];
+    set_declarations
+BEGIN
+FOR step FROM 1 TO lengh-1 STEP  DO
+    key:stab[step];
+    j:=tab[step-1];
+    WHILE (j>=0 AND key<tab[j]) DO
+        tab:=tab[j+1]
+        j:=j-1
+    END_WHILE
+    t[j+1]:=key;
+END_FOR
+ 
+END
